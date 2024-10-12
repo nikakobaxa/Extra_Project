@@ -1,0 +1,346 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: top;
+}
+
+ul{
+   list-style-type: none;
+}
+
+body{
+   margin: 0px;
+   font-family: 'Normal';
+}
+
+a{
+   text-decoration: none;
+}
+
+div[class*="col-"]{
+  
+    padding: 15px;
+   
+  }
+  
+  .container{
+  
+    max-width: 1300px;
+    margin: 0 auto;
+ 
+  }
+
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+  .background{
+    background-image: url(../images/th.jpg);
+    padding: 100px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+ 
+  .parent p{
+    font-size: 30px;
+    color: white;
+  }
+ 
+  
+ 
+  .background_1{
+    background-image: url(../images/2.jpeg);
+    padding: 150px 0;
+    margin: 200px 0 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .background_2{
+    .col-3{
+       a:hover{
+          text-decoration: none;
+          color: black;
+       }
+       a{
+          p{
+             margin: 0px;
+          }
+       }
+    }
+  }
+ 
+ 
+  .parent_1 p{
+    color: white;
+    font-size: 30px;
+  }
+ 
+ 
+ .parent_2{
+ 
+    height: 379px;
+    border: 1px solid #E0DFDF;
+ }
+ 
+ .ni{
+    color: black;
+ }
+  
+ 
+ .parent_3{
+    border: 1px solid #E0DFDF;
+    margin: 0 0 0 63px;
+ }
+ 
+ .p{
+    font-size: 30px;
+    margin: 0 0 0 60px;
+ }
+ 
+ .pi{
+    margin: 0 0 0 60px;
+ }
+ 
+ .money{
+    padding: 8px;
+    font-size: 34px;
+    position: absolute;
+ }
+ 
+ .parent_4{
+    border: 1px solid #E0DFDF;
+    margin: 0 0 0 63px;
+ }
+ 
+ .pu{
+    font-size: 30px;
+    margin: 0 0 0 60px;
+ }
+ 
+ .pm{
+    margin: 0 0 0 60px;
+ }
+ 
+ .phone{
+    padding: 8px;
+    font-size: 34px;
+    position: absolute;
+ }
+ 
+ 
+ footer{
+    padding: 50px 10px;
+    background-color: #262626;
+ }
+ 
+ 
+ .n1{
+    color: white;
+    font-size: 30px;
+ }
+ 
+ .n2{
+    color: white;
+    
+ }
+ 
+ .n3{
+    color: white;
+    font-size: 30px;
+ }
+ 
+ 
+ .n4{
+    color: white;
+    
+ }
+ 
+ .n5{
+    color: white;
+    font-size: 30px;
+ }
+ 
+ .n6{
+    color: white;
+    
+ }
+ 
+ .n7{
+    color: white;
+    font-size: 30px;
+ }
+ 
+ .Name{
+    margin:  0 0 15px 0;
+    padding: 5px;
+ }
+ 
+ .button{
+    background-color: red;
+     color: white;
+     padding: 5px 10px;
+     border: red;
+ }
+
+ .background_7{
+    padding: 20px;
+    background-color: #181818;
+ }
+ 
+ .background_7 .copy p{
+    color: white;
+    margin: 0px;
+   
+ }
+ .background_7 .row{
+    justify-content: center;
+    position: relative;
+ }
+ .shota{
+    position: absolute;
+    right: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+ }
+ .background_7 .shota ul{
+    display: flex;
+    gap: 5px;
+    margin: 0px;
+    align-items: center;
+ }
+ .background_7 .shota ul a{
+    display: block;
+    margin: 0 10px;
+    font-size: 18px;
+    background-color: #F25252;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    position: relative;
+    color: white;
+ }
+ .background_7 .shota ul a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .background_5{
+    background-color: #000000a1;
+    padding: 100px 100px;
+    background-image: url(../images/2.jpeg);
+    background-blend-mode: color;
+ }
+ 
+ 
+ .parent_7 h1{
+    text-align: center;
+    color: white;
+ }
+ 
+ .parent_7 p{
+    text-align: center;
+    color: white;
+ }
+ 
+ .parent_8{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    height: 30px;
+    color: #FFFFFF;
+ }
+ 
+ .input{
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+ }
+ .input:focus{
+    background-color: white;
+ }
+ .label:focus{
+    background-color: white;
+ }
+ 
+ .label{
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    outline: none;
+ }
+ 
+ .but{
+    padding: 5px;
+     border: 1px solid black;
+     border-radius: 25px;
+     background-color: red;
+     color: white;
+     margin-top: 30px;
+ }
+ 
+ .parent_7{
+     text-align: center;
+ }
+
+.background_6{
+    border: 1px solid red;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.background_6 img{
+    width: 500px;
+    margin-left: 265px;
+}
+
+.background_6 p{
+   text-align: center;
+}
+
+.arne{
+   width: 43%;
+   margin-left: 50px;
+ }
+
+
+.vd{
+ font-size: 22px;
+ margin: -355px 0px 0px 701px;
+ padding: 42px;
+ border: 2px solid black;
+ border-radius: 30px;
+ background-color: red;
+ color: white;
+}

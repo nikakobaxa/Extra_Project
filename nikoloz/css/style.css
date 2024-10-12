@@ -1,0 +1,185 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: top;
+}
+
+div[class*="col-"]{
+  
+    padding: 15px;
+    float: left;
+  }
+  
+  .container{
+  
+    max-width: 1300px;
+    margin: 0 auto;
+  
+  }
+  
+  .row:after{
+     content: "";
+     display: block;
+     clear: both;
+  }
+  
+  
+  
+  .col-1{
+     width: 8.33%;
+  }
+  .col-2{
+     width: 16.66%; 
+  }
+  .col-3{
+     width: 25%;
+  }
+  .col-4{
+     width: 33.33%;
+  }
+  .col-5{
+     width: 41.33%;
+  }
+  .col-6{
+     width: 50%;
+  }
+  .col-7{
+     width: 58.33%;
+  }
+  .col-8{
+     width: 66.66%;
+  }
+  .col-9{
+     width: 75%;
+  }
+  .col-10{
+     width: 83.33%;
+  }
+  .col-11{
+     width: 91.66%;
+  }
+  .col-12{
+     width: 100%;
+  }
+
+
+  header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.slider{
+    background-image: url(../images/Messi.jpg);
+    padding: 100px 0 200px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+
+
+  .slider h1{
+    padding: 20px;
+    font-size: 80px;
+    color: white;
+  }
+
+  .slider hr{
+    margin: 0 350px 15px 350px;
+    background-color: blue;
+    padding: 1px 0;
+  }
+
+  .slider p{
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+  }
+
+  .slider a{
+    display: block;
+    margin: 50px 550px 0px 550px;
+    border: 3px solid blue;
+    padding: 10px 
+  }
+
+  .icon_section{
+    text-align: center;
+  }
+
+  .icon_section .icons{
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+  }
+
+  .icon_section h3{
+    margin: 15px 0;
+  }
+
+  .niko{
+   padding: 50px;
+   text-align: center;
+  }
+
+  .niko p{
+    padding: 20px;
+  }
+
+.mag img{
+    width: 350px;
+    height: 300px;
+}
+
+.mig{
+    background-image: url(../images/864929.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.mig .col-12 form{
+margin: 0 500px;
+
+}
+
+.mig .col-12 input{
+    margin: 10px 0;
+
+}
+
+.mig .col-12 h2{
+    font-size: 40px;
+    padding: 15px;
+    color: white;
+}
+
+.mig .col-12 p{
+    color: white;
+}

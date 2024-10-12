@@ -1,0 +1,166 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    vertical-align: top;
+}
+
+ul{
+   list-style-type: none;
+}
+
+body{
+   margin: 0px;
+   font-family: 'Normal';
+   background-color: #E5E5E5;
+}
+
+a{
+   text-decoration: none;
+}
+
+div[class*="col-"]{
+  
+    padding: 15px;
+   
+  }
+  
+  .container{
+  
+    max-width: 1300px;
+    margin: 0 auto;
+ 
+  }
+
+  header{
+   padding: 25px;
+   position: sticky;
+   margin-bottom: 20px;
+ }
+ header nav{
+   float: right;
+ }
+
+ header ul li{
+   display: inline-block;
+   padding: 0px 24px;
+   margin-left: 10px;
+   left: 10px;
+ }
+ header ul li a{
+   text-decoration: none;
+   color: black;
+ }
+
+ .nika{
+    border: none;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+ }
+
+ .logo{
+   color: green;
+   font-size: 30px;
+   margin-left: 35px;
+ }
+
+.parent{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+}
+
+.child-1{
+  display: flex;
+  align-items: end;
+  gap: 20px;
+}
+.child-1 h1{
+  font-size: 30px;
+  color: black;
+
+}
+.child-1 span{
+  color: black;
+  font-weight: 700;
+}
+.child-1 h6 {
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.child-2{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.child-2 a{
+  color: black;
+  font-size: 16px;
+}
+
+.card{
+  border: 1px solid grey;
+  border-radius: 36px;
+  text-align: center;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+
+.w_25{
+  padding: 50px;
+  margin-left: 40px;
+}
+
+.card img{
+  width: 275px;
+  height: 308px;
+  object-fit: cover;
+  object-position: top;
+  background-color: gainsboro;
+}
+
+.card h2{
+  font-size: 20px;
+  margin-right: 78px;
+  padding: 10px;
+}
+
+.card h5{
+  color: green;
+  font-size: 20px;
+  margin-right: 143px;
+}
+
+.card p{
+  padding: 20px;
+  margin-top: 21px;
+}
+.w_100{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.mwvane{
+    border: none;
+    padding: 10px;
+    background-color: green;
+    border-radius: 23px;
+}
+
+.child-2 .mwvane{
+  color: white;
+}

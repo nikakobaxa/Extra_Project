@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* global styles */
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+}
+
+/* header styles */
+   header {
+    height: 70px;
+    background-color: cornflowerblue;
+    align-items: center;
+   } 
+ 
+   header .logo {
+    width: 45px;
+    height: 45px;
+   }
+
+   header .container {
+    align-items: center;
+   }
+
+   nav {
+    width: calc(100% - 45px);
+    justify-content: space-between;
+   }
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+ nav a:hover {
+    text-decoration: underline;
+ }
+
+footer {
+    padding: 15px 0;
+   background-color: cornsilk; 
+   height: 60px;
+   box-sizing: border-box;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+/* auth */
+.auth-form-container {
+    width: 300px;
+    min-height: 200px;
+    border: 1px solid #ccc;
+    margin: auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.auth-form-container .text-input-label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.auth-form-container .text-input, 
+.auth-form-container .locations {
+    height: 30px;
+    display: block;
+    width: 90%; 
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+}
+
+.auth-form-container .locations {
+    background-color: white;
+}
+
+.form-group {
+   margin-bottom: 15px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+
+.btn {
+    display: block;
+    font-size: 16px;
+    height: 35px;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white
+}
+
+.btn-link {
+    text-decoration: none;
+    line-height: 35px;
+    color: blue;
+}
+
+.btn-link:hover {
+    text-decoration: underline;
+}
+
+
+.sex-conteiner {
+    display: inline-block;
+}
+
+.body-container {
+    padding: 30px 0;
+    min-height: calc(100vh - 70px -60px);
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    align-items: center;
+    display: flex;
+}
+.container .card{
+    width: 33.333%;
+    position: relative;
+    padding: 10px;
+}
+.container .card h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container .child{
+    border-radius: 10px;
+    border: 1px solid black;
+    min-height: 200px;
+    padding: 15px;
+}
+.container .card button{
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    border-left: none;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1opx solid black;
+    background-color: transparent;
+    outline: none;
+}

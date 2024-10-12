@@ -1,0 +1,272 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Normal';
+  background: #FFFFFF;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+div[class*="col-"] {
+
+  padding: 15px;
+
+}
+
+.container {
+
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 9px 35px;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: 25px;
+}
+
+header ul li a {
+  color: white;
+}
+
+header .logo {
+  float: left;
+  padding: 7px;
+  font-size: 20px;
+  color: red;
+}
+
+.parent {
+  width: 1583px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-evenly;
+}
+
+.svg{
+width: 29px;
+}
+
+.dvg{
+width: 35px;
+transform: translateY(3px);
+}
+
+.white{
+  color: #979797
+}
+
+.gio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+h1 {
+  padding: 14px;
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.gio1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.gio2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.gio3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.gio4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.gio5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.luka {
+  display: flex;
+  margin-left: 70px;
+  gap: 10px;
+  width: 87px;
+  border: 1px solid black;
+  padding: 9px;
+  border-radius: 14px;
+  font-size: 19px;
+}
+
+.black {
+  color: #979797;
+  transform: translateY(3px);
+}
+
+
+
+
+.red {
+  color: black;
+}
+
+.background {
+  padding: 34px;
+}
+
+.background h1 {
+  padding: 10px;
+  transform: translateY(78px);
+  margin-right: 500px;
+  color: white;
+}
+
+.background img {
+  width: 1320px;
+  height: 494px;
+  border-radius: 30px;
+}
+
+.background h5 {
+  font-size: 40px;
+  transform: translatey(-313px);
+  color: white;
+  width: 58px;
+  height: 110px;
+  border-radius: 0 30px 30px 0px;
+  background-color: #d9d9d965;
+  padding: 33px 13px;
+}
+
+
+.right {
+  font-size: 40px;
+  transform: translatey(-425px);
+  color: white;
+  width: 58px;
+  height: 110px;
+  border-radius: 30px 0px 0px 30px;
+  background-color: #d9d9d965;
+  padding: 33px 13px;
+  float: right;
+}
+
+
+.containerCard {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  max-width: 1330px;
+  margin: 0px auto;
+}
+.containerCard p{
+  color: #999999;
+}
+
+.containerCard .card {
+  width: 33.333%;
+  padding: 20px;
+}
+
+.containerCard .info {
+  padding: 10px 30px;
+}
+
+.containerCard .card h1 {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding: 10px 0;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25.2px;
+  min-height: 71px;
+}
+
+.containerCard .card h1 i {
+  font-size: 20px;
+  color: #FFAB00;
+}
+
+.containerCard .card h1 i span {
+  font-size: 14px;
+  color: black;
+  margin-left: 6px;
+}
+
+.containerCard .child {
+  border-radius: 30px;
+  border: 1px solid #EDEDED;
+  box-shadow: 3px 5px 16px 0px #D9D8D840;
+  min-height: 480px;
+}
+
+.containerCard .ButtonClass {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 0;
+}
+
+.containerCard .ButtonClass button {
+  border: none;
+  background-color: transparent;
+  color: #0A1125;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 15.6px;
+  border-bottom: 1px solid black;
+
+}
+
+.containerCard img {
+  height: 280px;
+  border-radius: 30px;
+}
